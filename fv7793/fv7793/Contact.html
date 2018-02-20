@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Bee Contact">
+    <meta name="keywords" content="Bee,Agriculture,pesticide">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Save the Bees:Contact Information</title>
+	<link rel="stylesheet" href="bees.css">
+	<script type="text/javascript">
+	//alert("Please Donate");
+function loadPage() {
+    alert("Please Donate!");
+}
+window.onbeforeunload = function(){
+  return 'Are you sure you are finished with the form?';
+};
+</script>
+	
+</head>
+<body onload="loadPage()">
+<div id="wrapper">
+	<header>
+		<h1>Save the Bees:Contact Us</h1>
+	</header>
+	<nav>
+	<ul>
+		<li><a href="Home.html" >Home</a></li>
+		<li><a href="Problem.html" >Problem</a></li>
+		<li><a href="Causes.html"  >Causes</a></li>
+		<li><a href="Effect.html"  >Effect</a></li>
+		<li><a href="Solution.html"  >Solution</a></li>
+		<li><a href="Articles.html"  >Articles</a></li>
+		<li><a href="Contact.html"  >Contact</a></li>
+	</ul>
+	</nav>
+	<div id="contact"></div>
+	<main>
+		<h2> Please donate to our nonprofit to save the bees!</h2>
+		<table>
+				<tr>
+					<th> Package</th>
+					<th> Description</th>
+					<th> Cost in dollars</th>
+				</tr>
+				<tr>
+					<td class="text">Package #1</td>
+					<td>If you get this package you will recieve our thanks!</td>
+					<td>$5</td>
+				</tr>
+				<td class="text">Package #2 </td>
+					<td>If you get this package you will recieve our thanks!</td>
+					<td>$10</td>
+				</tr>
+				<td class="text">Package #3 </td>
+					<td>If you get this package you will recieve our thanks!</td>
+					<td>$20</td>
+				</tr>
+		</table>
+		<h3> Donate today to recieve our thanks!</h3>
+		<p>Required information is marked with an asterisk (*).</p>
+	 <form method="POST" action="http://fp1.formmail.com/cgi-bin/fm192">
+
+ <!-- REQUIRED: Supply your plan, form processor and recipients -->
+ <input type="hidden" name="_pid" value="153684">
+ <input type="hidden" name="_fid" value="JLD3EO45">
+ <input type="hidden" name="recipient" value="1">
+
+	<table ="idtable">
+	<tr>
+	<td>
+			<label for="myFName">*First Name</label>
+			<input type="text" name="myFName" id="myFName" required="required">
+	</td>
+	</tr>
+	<tr>
+	<td>
+			<label for="myLName">*Last Name</label>
+			<input type="text" name="myLName" id="myLName" required="required">
+	</td>		
+	</tr>
+	<tr>
+	<td>
+			<label for="myEmail">* E-mail</label>
+			<input type="email" name="myEmail" id="myEmail" required="required">
+	</td>
+	</tr>
+	<tr>
+	<td>
+			<label for="myPhone">Phone</label>
+			<input type="tel" name="myPhone" id="myPhone" min="1" max="12">
+	</td>
+	</tr>
+	<tr>
+	<td>
+			<label for="myPackage">*Package number</label>
+			<input type="text" name="myPackage" id="myPackage" required="required" min="1" max="3">
+	</td>
+	</tr>
+	<tr>
+	<td>
+			<input type="submit" value="Submit">
+	</td>
+	</tr>
+	</table>
+		</form>
+	</main>
+	<footer>
+		Copyright &copy; 2016 Pacific Trails Resort <br>
+			<a href="mailto:michaelheredia864@gmail.com">michaelheredia864@gmail.com</a>
+		</footer>
+	</div>
+</body>
+</html>
+	
